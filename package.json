@@ -1,0 +1,26 @@
+{
+  "name": "with_teeth_films",
+  "version": "1.0.0",
+  "description": "With Teeth Films website",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "With",
+    "Teeth",
+    "Films",
+    "teeth",
+    "films"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+*.iml
+.idea/*
+.DS_Store
+node_modules
+.com.apple*
+video/*
+assets/css/min/*
+assets/js/min/*

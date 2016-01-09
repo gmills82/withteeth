@@ -1,0 +1,95 @@
+.wtf-logo {
+    font-family: "Arial Black", "helvetica", Arial, sans-serif;
+    font-size: 36px;
+}
+.team-bio p {
+    margin-top: 30px;
+}
+.movie-blurb {
+    text-align: left;
+}
+.movie-blurb .poster {
+    width: auto;
+    height: 300px;
+    display: inline-block;
+    background-color: #DBDBDB;
+}
+.movie-blurb .poster.coming-soon {
+    min-width: 184px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+.movie-blurb .poster.coming-soon span {
+    position: relative;
+    top: 40%;
+}
+.movie-blurb .poster img {
+    max-height: 300px;
+}
+.movie-blurb dl,
+.movie-blurb p {
+    display: inline-block;
+    vertical-align: top;
+}
+.movie-blurb dl {
+    padding-left: 10px;
+}
+.movie-blurb p {
+    margin-top: 17px;
+}
+.trailer {
+  padding-bottom: 10px;
+}
+.trailer .video-container {
+  margin-top: 20px;
+}
+.film-section-description .description {
+  text-align: left;
+}
+.trailer .video-container video {
+  width: 100%;
+}
+.film-section-description {
+  padding-top: 10px;
+}
+.film-section-description .description {
+  padding: 0 15px 10px;
+}
+/* Large size overrides*/
+@media(min-width:1200px) {
+  .trailer .video-container video {
+    width: 84%;
+  }
+  .film-section-description {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+
+  .film-section-description .movie-blurb h3 {
+    margin-top: 0;
+  }
+}
+/* Medium size overrides */
+@media(min-width:992px) {
+  .trailer .video-container video {
+    width: 84%;
+  }
+  .film-section-description {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+
+  .film-section-description .movie-blurb h3 {
+    margin-top: 0;
+  }
+}
+/* Small overrides */
+@media(min-width:768px){
+
+}
+/* Extra Small overrides */
+@media(max-width:767px){
+
+}
