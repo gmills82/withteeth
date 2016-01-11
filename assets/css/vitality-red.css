@@ -305,7 +305,8 @@ header .scroll-down {
   bottom: 20px;
   text-align: center;
 }
-header .scroll-down .btn {
+header .scroll-down .btn,
+aside .scroll-down .btn {
   height: 50px;
   width: 50px;
   border: 2px solid white;
@@ -319,7 +320,8 @@ header .scroll-down .btn {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-header .scroll-down .btn:hover {
+header .scroll-down .btn:hover,
+aside .scroll-down .btn:hover {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.5);
   outline: none;
